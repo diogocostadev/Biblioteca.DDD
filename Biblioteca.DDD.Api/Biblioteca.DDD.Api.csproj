@@ -11,4 +11,13 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Views\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Biblioteca.DDD.Application\Biblioteca.DDD.Application.csproj" />
+      <ProjectReference Include="..\Biblioteca.DDD.Infrastructure\Biblioteca.DDD.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>

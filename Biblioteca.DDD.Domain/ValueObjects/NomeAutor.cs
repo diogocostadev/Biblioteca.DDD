@@ -1,6 +1,3 @@
 namespace Biblioteca.DDD.Domain.ValueObjects;
 
-public class NomeAutor
-{
-    
-}
+public record NomeAutor(string Nome);
